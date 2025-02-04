@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 //components
-import PostDetails from '../components/PostDetails'
+import PostDetails from '../components/postDetails'
 
 const Home = () => {
     const [posts, setPosts] = useState(null)
