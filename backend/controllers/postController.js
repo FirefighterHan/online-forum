@@ -28,7 +28,16 @@ const getPost = async (req, res) => {
 const createPost = async (req, res) => {
     //pass variable from schema in model to be used as object
     const {content} = req.body
-    
+
+    let emptyFields = []
+
+    if (!content) {
+        emptyFields.push('content')
+    }
+    if (emptyFields.length > 0) {
+        return res.status(400).json({error: 'Please fill in all the fields', emptyFields})
+    }
+
     //add document to db
     try {
         const post = await Post.create({content})
