@@ -21,7 +21,7 @@ const PostForm = () => {
                 'Content-Type': 'application/json'
             }
         })
-
+        //store data into json object
         const json = await response.json()
 
         if (!response.ok) {
@@ -29,10 +29,14 @@ const PostForm = () => {
             setEmptyFields(json.emptyFields)
         }
         if (response.ok) {
+            //empty the content textbox for the next action
             setContent('')
+            //remove error after a correct action
             setError(null)
+            //setEmptyFields back to none to check the next action
             setEmptyFields([])
             console.log('new post added')
+            //dispatch function to usePostContext with the data stored as json object
             dispatch({type: 'CREATE_POST', payload: json})
         }
     }
@@ -46,7 +50,7 @@ const PostForm = () => {
                 type="text"
                 onChange={(e) => setContent(e.target.value)}
                 value={content}
-                className={emptyFields.includes('content') ? 'error':                                  ''}
+                className={emptyFields.includes('content') ? 'error': ''}
             />
             <button>Post</button>
             {error && <div className="error">{error}</div>}

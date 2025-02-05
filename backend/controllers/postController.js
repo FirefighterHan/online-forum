@@ -31,13 +31,14 @@ const createPost = async (req, res) => {
 
     let emptyFields = []
 
+    //push variable into emptyFields array
     if (!content) {
         emptyFields.push('content')
     }
+    //to check if there is any variable in the emptyFields array, if yes, display error
     if (emptyFields.length > 0) {
         return res.status(400).json({error: 'Please fill in all the fields', emptyFields})
     }
-
     //add document to db
     try {
         const post = await Post.create({content})

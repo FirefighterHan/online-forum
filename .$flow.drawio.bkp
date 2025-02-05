@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1151" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="737" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -175,7 +175,7 @@
         <mxCell id="t0O0TP2Upv_KhOTyi0DR-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t0O0TP2Upv_KhOTyi0DR-76" target="t0O0TP2Upv_KhOTyi0DR-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t0O0TP2Upv_KhOTyi0DR-76" target="PV0ygfexevLTU6Si6mPy-2" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t0O0TP2Upv_KhOTyi0DR-76" target="PV0ygfexevLTU6Si6mPy-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t0O0TP2Upv_KhOTyi0DR-76" value="in App.js file,&lt;div&gt;import&lt;/div&gt;&lt;div&gt;BrowserRouter (wraps everywhere wan to use routes),&lt;/div&gt;&lt;div&gt;Routes (wraps all individual routes), Route (individual route)&lt;/div&gt;&lt;div&gt;Use in template&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -196,239 +196,110 @@
         <mxCell id="t0O0TP2Upv_KhOTyi0DR-83" value="Style the app.js page in the index.css" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="800" y="882.81" width="160" height="54.37" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-2" target="PV0ygfexevLTU6Si6mPy-4" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-2" target="PV0ygfexevLTU6Si6mPy-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-2" value="Fetch data at the frontend using backend API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-2" target="PV0ygfexevLTU6Si6mPy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PV0ygfexevLTU6Si6mPy-2" value="Fetch data at the frontend using backend API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="1040" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-4" target="PV0ygfexevLTU6Si6mPy-6" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-4" target="PV0ygfexevLTU6Si6mPy-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-4" value="useEffect function to fetch all posts in database,&lt;div&gt;all data will be a json object after called by fetch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-4" value="useEffect function to fetch all posts in database,&lt;div&gt;all data will be a json object after called by fetch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="1020" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-6" target="PV0ygfexevLTU6Si6mPy-8" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-6" target="PV0ygfexevLTU6Si6mPy-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-6" value="at home template, check if the object contains value" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-6" value="at home template, check if the object contains value" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="1030" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-8" target="PV0ygfexevLTU6Si6mPy-11" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-8" target="PV0ygfexevLTU6Si6mPy-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-8" value="Create PostDetails.js file to create template on how the post and it&#39;s details will be shown" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-8" value="Create PostDetails.js file to create template on how the post and it&#39;s details will be shown" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="840" y="1020" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-11" value="in home template, call back the data within the detail frame of PostDetails.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-11" value="in home template, call back the data within the detail frame of PostDetails.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1080" y="1020" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-13" target="PV0ygfexevLTU6Si6mPy-15" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-13" target="PV0ygfexevLTU6Si6mPy-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-13" target="PV0ygfexevLTU6Si6mPy-15" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-13" target="PV0ygfexevLTU6Si6mPy-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-13" target="PV0ygfexevLTU6Si6mPy-18" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-13" target="PV0ygfexevLTU6Si6mPy-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-13" target="zo_pv7s9oAUK1Rnjm_1F-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-13" value="add React Context&lt;div&gt;(Local react state is not in sync with database when add new documents)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-13" value="add React Context&lt;div&gt;(Local react state is not in sync with database when add new documents)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="1190" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-15" target="PV0ygfexevLTU6Si6mPy-22" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-15" target="PV0ygfexevLTU6Si6mPy-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-15" value="update state locally" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-15" value="update state locally" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="365" y="1190" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-18" target="PV0ygfexevLTU6Si6mPy-20" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-18" target="PV0ygfexevLTU6Si6mPy-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-18" value="prepare global state for many different components" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-18" value="prepare global state for many different components" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="1260" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-20" value="access and update directly, then use context provider from any component" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-20" value="access and update directly, then use context provider from any component" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="1330" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-22" value="update state locally" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-22" value="update state locally" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="1190" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-27" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="1219" as="sourcePoint" />
             <mxPoint x="800" y="1219" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-28" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="1160" as="sourcePoint" />
             <mxPoint x="800" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-29" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="1160" as="sourcePoint" />
             <mxPoint x="880" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-30" value="create postContext.js file,&lt;div&gt;postContext (createContext function)&lt;/div&gt;&lt;div&gt;postContextProvider (provide context to components tree)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-30" value="create postContext.js file,&lt;div&gt;postContext (createContext function)&lt;/div&gt;&lt;div&gt;postContextProvider (provide context to components tree)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="1130" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="1239.43" as="sourcePoint" />
             <mxPoint x="880" y="1239.43" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-33" target="PV0ygfexevLTU6Si6mPy-34" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-33" target="PV0ygfexevLTU6Si6mPy-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-33" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;postContextProvider&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(wraps whatever parts application needs access to)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-33" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;postContextProvider&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(wraps whatever parts application needs access to)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="1210" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-34" value="Wrap App component in index.js&lt;div&gt;Wrap children object in postContext.js&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-34" value="Wrap App component in index.js&lt;div&gt;Wrap children object in postContext.js&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="1210" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-36" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="1320" as="sourcePoint" />
             <mxPoint x="880" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PV0ygfexevLTU6Si6mPy-37" value="custom hooks&lt;div&gt;to use useContext function for custom PostContext hook function&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PV0ygfexevLTU6Si6mPy-37" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;postContextProvider&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(wraps whatever parts application needs access to)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="1290" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-0" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="1400" as="sourcePoint" />
-            <mxPoint x="880" y="1400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-1" target="zo_pv7s9oAUK1Rnjm_1F-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-1" value="create postReducer to update react global state" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="880" y="1370" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-2" target="zo_pv7s9oAUK1Rnjm_1F-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-2" value="To update new added documents:&lt;div&gt;provide dispatch function (for postForm to create new post)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1160" y="1370" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-4" value="To remove deleted documents:&lt;div&gt;provide dispatch function (for postDetails to remove post)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1440" y="1370" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-6" target="zo_pv7s9oAUK1Rnjm_1F-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-6" target="zo_pv7s9oAUK1Rnjm_1F-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-6" value="Handling better error responses" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="1510" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-8" target="zo_pv7s9oAUK1Rnjm_1F-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-8" value="create EmptyFields array in Backend/Controller/postController&lt;div&gt;(to identify which variable empty, push into EF array)&lt;/div&gt;&lt;div&gt;(add error if EF array is not empty)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="1490" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-10" value="add in return template in postForm to display error if form is not completed" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="1505" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-12" value="Finishing touch" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="1640" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="1659.81" as="sourcePoint" />
-            <mxPoint x="360" y="1659.81" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="1640" as="sourcePoint" />
-            <mxPoint x="360" y="1720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="1640" as="sourcePoint" />
-            <mxPoint x="440" y="1640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-17" target="zo_pv7s9oAUK1Rnjm_1F-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-17" value="Delete icon" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="1620" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="1720" as="sourcePoint" />
-            <mxPoint x="440" y="1720" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-19" target="zo_pv7s9oAUK1Rnjm_1F-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-19" value="Date fns" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="1700" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-20" target="zo_pv7s9oAUK1Rnjm_1F-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-20" value="command:&lt;div&gt;npm install date-fns&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="1700" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-22" value="import formatDistanceToNow" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="1700" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-24" value="update index.html&lt;div&gt;with material-symbol-outlined&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="1620" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PV0ygfexevLTU6Si6mPy-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1130" as="sourcePoint" />
-            <mxPoint x="80" y="1120" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="220" y="1120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-27" target="zo_pv7s9oAUK1Rnjm_1F-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-27" value="Create postForm Components&lt;div&gt;contains form template&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-120" y="1100" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-28" target="zo_pv7s9oAUK1Rnjm_1F-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-28" value="onSubmit function for handleSubmit" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-360" y="1100" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-30" target="zo_pv7s9oAUK1Rnjm_1F-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-30" value="handleSubmit submits new data to db" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-360" y="1190" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-32" value="if handleSubmits response is ok, proceed dispatch function" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-360" y="1270" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zo_pv7s9oAUK1Rnjm_1F-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.64;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zo_pv7s9oAUK1Rnjm_1F-27" target="PV0ygfexevLTU6Si6mPy-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="1200" as="sourcePoint" />
-            <mxPoint x="-30" y="1230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="220" y="1130" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
