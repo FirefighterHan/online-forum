@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1539" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1751" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -657,6 +657,9 @@
         <mxCell id="zAzRuXc1iR533clTx7ns-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zAzRuXc1iR533clTx7ns-67" target="zAzRuXc1iR533clTx7ns-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zAzRuXc1iR533clTx7ns-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zAzRuXc1iR533clTx7ns-67" target="zAzRuXc1iR533clTx7ns-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zAzRuXc1iR533clTx7ns-67" value="Email and Password validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="2400" width="120" height="50" as="geometry" />
         </mxCell>
@@ -668,6 +671,9 @@
         </mxCell>
         <mxCell id="zAzRuXc1iR533clTx7ns-71" value="Validate email and password in signup function in userModel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="2400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zAzRuXc1iR533clTx7ns-73" value="Email and Password validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="2500" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

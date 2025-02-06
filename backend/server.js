@@ -5,8 +5,11 @@ const express = require('express')
 //create object for db
 const mongoose = require('mongoose')
 
-//use routes from routes folder
+//use routes from post routes folder
 const postRoutes = require('./routes/post')
+
+//use routes from user routes folder
+const userRoutes = require('./routes/user')
 
 // forumApp by invoking express function
 const forumApp = express()
@@ -21,6 +24,7 @@ forumApp.use((req, res, next) => {
 
 //routes
 forumApp.use('/api/post', postRoutes) //connecting to routes/post file
+forumApp.use('/api/user', userRoutes) //connecting to routes/user file
 
 //connext to db thorugh the object
 mongoose.connect(process.env.MONGO_URI)
