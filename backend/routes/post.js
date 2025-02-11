@@ -7,8 +7,12 @@ const {
     deletePost,
     updatePost
 } = require('../controllers/postController')
+const requireAuth = require('../middlewares/requireAuth')
 
 const router = express.Router()
+
+// requireAuth middleware is used to verify the authentication of the user
+router.use(requireAuth)
 
 router.get('/', getPosts)
 

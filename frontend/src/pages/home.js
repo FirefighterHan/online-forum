@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { usePostContext } from '../hooks/usePostContext'
+import { useAuthContext } from '../hooks/useAuthContext'
 
 //components
 import PostDetails from '../components/postDetails'
@@ -7,19 +8,27 @@ import PostForm from '../components/postForm'
 
 const Home = () => {
     const {posts, dispatch} = usePostContext()
+    const {user} = useAuthContext()
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const response = await fetch('/api/post')
+            const response = await fetch('/api/post', {
+                //authorization token in headers to be used in middleware
+                headers: {
+                    'Authorization': `Bearer ${user.token}`
+                }
+            })
             const json = await response.json()
 
             if (response.ok) {
                 dispatch({type: 'SET_POSTS', payload: json})
             }
         }
-
-        fetchPosts()
-    }, [dispatch])
+        //check if user is logged in
+        if (user) {
+            fetchPosts()
+        }
+    }, [dispatch, user])
 
     return (
         <div className="home">

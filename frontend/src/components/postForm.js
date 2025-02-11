@@ -1,8 +1,11 @@
 import { useState } from "react"
 import { usePostContext } from "../hooks/usePostContext"
+import { useAuthContext } from "../hooks/useAuthContext"
 
 const PostForm = () => {
     const {dispatch} = usePostContext()
+
+    const {user} = useAuthContext()
 
     const [content, setContent] = useState('')
     const [error, setError] = useState('')
@@ -12,13 +15,20 @@ const PostForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
+        if (!user) {
+            setError('You must be logged in to post')
+            return
+        }
+
         const postSent = {content}
 
         const response = await fetch('/api/post', {
             method: 'POST',
             body: JSON.stringify(postSent),
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                //authorization token in headers to be used in middleware
+                'Authorization': `Bearer ${user.token}`
             }
         })
         //store data into json object

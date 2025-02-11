@@ -1023,8 +1023,8 @@
         <mxCell id="_gDS4BHQ3GzmcuPHgWnl-33" value="Making authorized requests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="3320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-35" value="add authentication headers in every requests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="3320" width="120" height="40" as="geometry" />
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-35" value="add authentication headers in every requests where we fetch data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="3320" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
