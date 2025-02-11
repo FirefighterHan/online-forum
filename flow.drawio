@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1318" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1166" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1020,11 +1020,41 @@
         <mxCell id="_gDS4BHQ3GzmcuPHgWnl-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_gDS4BHQ3GzmcuPHgWnl-33" target="_gDS4BHQ3GzmcuPHgWnl-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_gDS4BHQ3GzmcuPHgWnl-33" target="_gDS4BHQ3GzmcuPHgWnl-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_gDS4BHQ3GzmcuPHgWnl-33" value="Making authorized requests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="3320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-35" value="add authentication headers in every requests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="3320" width="120" height="40" as="geometry" />
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-35" value="add authentication headers in every requests where data is fetched" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="3315" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_gDS4BHQ3GzmcuPHgWnl-39" target="_gDS4BHQ3GzmcuPHgWnl-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-39" value="Protect React routes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="3420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_gDS4BHQ3GzmcuPHgWnl-41" target="_gDS4BHQ3GzmcuPHgWnl-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-41" value="- logged out users cannot see the data&lt;div&gt;- redirect pages&lt;/div&gt;&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;logout to login page,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;login to home page&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="3395" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_gDS4BHQ3GzmcuPHgWnl-48" target="_gDS4BHQ3GzmcuPHgWnl-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-48" value="&lt;div&gt;- import navigate in&amp;nbsp;&lt;/div&gt;&lt;div&gt;react-router-dom&lt;/div&gt;&lt;div&gt;- import useAuthContext&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="3408.75" width="140" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_gDS4BHQ3GzmcuPHgWnl-52" target="_gDS4BHQ3GzmcuPHgWnl-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-52" value="create user constance thorugh useAuthContext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="3408.75" width="140" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_gDS4BHQ3GzmcuPHgWnl-54" value="check if there is user, navigate to desired page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="940" y="3408.75" width="140" height="62.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
