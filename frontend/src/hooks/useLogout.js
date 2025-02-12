@@ -1,10 +1,10 @@
 import { useAuthContext } from "./useAuthContext"
-import {useMessageContext} from "./useMessageContext"
+import {usePostContext} from "./usePostContext"
 
 export const useLogout = () => {
 
     const {dispatch} = useAuthContext()
-    const {dispatch: messageDispatch} = useMessageContext()
+    const {dispatch: postDispatch} = usePostContext()
 
     const logout = () => {
         // remove user from storage
@@ -12,7 +12,7 @@ export const useLogout = () => {
 
         //dispatch logout action
         dispatch({type: 'LOGOUT'})
-        messageDispatch({type: 'SET_MESSAGES', payload: null})
+        postDispatch({type: 'SET_POSTS', payload: null})
     }
 
     return {logout}
